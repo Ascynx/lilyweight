@@ -28,5 +28,6 @@
     },
     "dependencies": {
         "node-fetch": "^2.6.1"
-    }
+    },
+    "types": "index.d.ts"
 }
