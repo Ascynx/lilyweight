@@ -1,5 +1,7 @@
 declare module 'lilyweight' {
     export = LilyWeight;
+
+    /**An object containing weights.*/
     type Weights = {
             total: number,
             slayer: number,
@@ -16,6 +18,7 @@ declare module 'lilyweight' {
                      }
                  }
     
+    /**An object containing weights, the UUID and maybe username.*/
     type PlayerWeights = { 
             uuid: string,
             username?: string,
