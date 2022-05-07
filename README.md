@@ -26,7 +26,7 @@ This requires a Hypixel API key. You may obtain one by logging onto `hypixel.net
 const LilyWeight = require("lilyweight");
 
 // or import from Ecmascript Module
-import LilyWeight from "lilyweight"; 
+import LilyWeight from "lilyweight";
 
 // replace HYPIXEL_API_KEY with your Hypixel API key
 const lily = new LilyWeight("HYPIXEL_API_KEY");
@@ -92,7 +92,7 @@ console.log(LilyWeight.getWeightRaw(
     { "0": 10, "1": 10, "2": 10, "3": 10, "4": 10, "5": 10, "6": 10, "7": 100 }, // catacombs completion
     { "1": 10, "2": 10, "3": 10, "4": 10, "5": 10, "6": 100 }, // catacombs completion (master mode)
     1000000, // catacombs experience
-    [1000000, 1000000, 1000000, 1000000] // slayer experience
+    [1000000, 1000000, 1000000, 1000000, 1000000] // slayer experience
 ));
 ```
 
